@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Nature Market</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-success mb-4">
+    <div class="container">
+      <a class="navbar-brand" href="#">Nature Market</a>
+      <div class="ms-auto d-flex align-items-center gap-2">
+        <div class="dropdown d-none" id="cartDropdown">
+          <button class="btn btn-light dropdown-toggle" type="button" id="cartDropdownBtn" data-bs-toggle="dropdown" aria-expanded="false">
+            🛒 My Cart
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end p-3" style="min-width: 300px;" aria-labelledby="cartDropdownBtn">
+            <div id="cartList" class="mb-2" style="max-height: 300px; overflow-y: auto;"></div>
+            <div class="fw-bold mb-2">Total: <span id="cartTotal">0.00</span> TL</div>
+            <button id="clearCartBtn" class="btn btn-warning w-100">Clear Cart</button>
+          </ul>
+        </div>
+        <button id="openRegisterModal" class="btn btn-light">Sign Up</button>
+        <button id="openLoginModal" class="btn btn-outline-light">Log In</button>
+        <button id="logoutBtn" class="btn btn-danger d-none">Log Out</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="bg-light p-3 rounded shadow mb-4 text-center">
+    <h1 class="display-5 fw-bold">Welcome to Nature Market 🌿</h1>
+    <p class="lead">Fresh, organic products straight from our farm to your table.</p>
+    <p><strong>Sign up</strong> to start shopping and manage your cart.</p>
+  </div>
+
+  <!-- Why Choose Us -->
+  <div class="container mb-4">
+    <div class="row text-center">
+      <div class="col-md-4">
+        <h5>🌱 100% Organic</h5>
+        <p>All products are grown without chemicals or pesticides.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>🚜 Farm Fresh</h5>
+        <p>Harvested fresh and delivered directly to your door.</p>
+      </div>
+      <div class="col-md-4">
+        <h5>❤️ Family-Owned</h5>
+        <p>Operating with love and care since 2002.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="alert alert-success text-center mb-4" role="alert">
+    🛍️ Free shipping on orders over 250 TL!
+  </div>
+
+  <!-- Products -->
+  <div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h2 class="mb-3">Products</h2>
+      <div id="productsRow" class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4"></div>
+    </div>
+  </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="text-center text-muted mt-5 mb-4">
+    <p>© 2025 Nature Market. All rights reserved.</p>
+  </footer>
+
+  <!-- Register Modal -->
+  <div class="modal fade" id="registerModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form id="registerForm">
+          <div class="modal-header">
+            <h5 class="modal-title">Sign Up</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <input type="text" name="name" class="form-control" placeholder="Full Name" required>
+            </div>
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="password" name="password" class="form-control" placeholder="Password" required>
+            </div>
+            <div id="registerResult" class="text-danger"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-success w-100">Sign Up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Login Modal -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <form id="loginForm">
+          <div class="modal-header">
+            <h5 class="modal-title">Log In</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <div class="mb-3">
+              <input type="email" name="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="mb-3">
+              <input type="password" name="password" class="form-control" placeholder="Password" required>
+            </div>
+            <div id="loginResult" class="text-danger"></div>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-success w-100">Log In</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

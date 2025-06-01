@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "name": "Organic Tomatoes",
+    "price": 29.99,
+    "image": "https://images.unsplash.com/photo-1561136594-7f68413baa99?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "desc": "Fresh organic tomatoes, perfect for salads."
+  },
+  {
+    "id": 2,
+    "name": "Whole Milk",
+    "price": 19.99,
+    "image": "https://images.unsplash.com/photo-1635436338433-89747d0ca0ef?q=80&w=2743&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "desc": "Natural and creamy full-fat milk."
+  },
+  {
+    "id": 3,
+    "name": "Farm Eggs (10 pcs)",
+    "price": 34.99,
+    "image": "https://images.unsplash.com/photo-1586802990181-a5771596eaea?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "desc": "Fresh eggs from free-range chickens."
+  },
+   {
+    "id": 4,
+    "name": "Blueberries",
+    "price": 39.99,
+    "image": "https://images.unsplash.com/photo-1498557850523-fd3d118b962e?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "desc": "Sweet and antioxidant-rich blueberries."
+  },
+  {
+    "id": 5,
+    "name": "Zucchini",
+    "price": 16.99,
+    "image": "https://www.allrecipes.com/thmb/xkybcCdsXKxe46LB9v4e4AV28oo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-zucchini-basket-4x3-e6aba860035443a1b0a885d2d941ef6a.jpg",
+    "desc": "Organic zucchini from our garden."
+  },
+  {
+    "id": 6,
+    "name": "Goat Cheese",
+    "price": 59.99,
+    "image": "https://images.unsplash.com/photo-1691472898958-7cff5cee41cb?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "desc": "Homemade soft goat cheese."
+  },
+  {
+    "id": 7,
+    "name": "Olive Oil (Cold Pressed)",
+    "price": 69.99,
+    "image": "https://www.southernliving.com/thmb/Jvr-IldH7yuDqqcv7PU8tPDdOBQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-1206682746-2000-ff74cd1cde3546a5be6fec30fee23cc7.jpg",
+    "desc": "Premium cold-pressed olive oil."
+  },
+  {
+    "id": 8,
+    "name": "Chickpeas (1 kg)",
+    "price": 24.99,
+    "image": "https://forksandfoliage.com/wp-content/uploads/2023/02/how-to-cook-chickpeas-13.jpg",
+    "desc": "Organically grown chickpeas."
+  },
+  {
+    "id": 9,
+    "name": "Green Lentils (1 kg)",
+    "price": 22.99,
+    "image": "https://growincrazyacres.com/wp-content/uploads/2023/12/green-lentils.jpg",
+    "desc": "High-protein green lentils."
+  },
+  {
+    "id": 10,
+    "name": "Sun-Dried Figs",
+    "price": 44.99,
+    "image": "https://i.etsystatic.com/23784133/r/il/035eb0/3126950578/il_570xN.3126950578_bmd0.jpg",
+    "desc": "Naturally dried figs from the Aegean region."
+  },
+  {
+    "id": 11,
+    "name": "Whole Wheat Bread",
+    "price": 17.99,
+    "image": "https://www.realsimple.com/thmb/eCdJpfHL9K8kPtEfFErbGFMnlJQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/WheatBread-cfd58929396b4b888eef3cd9364e0dbe.jpg",
+    "desc": "Freshly baked whole grain bread."
+  },
+  {
+    "id": 12,
+    "name": "Herbal Tea Mix",
+    "price": 29.99,
+    "image": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/file-uploads/blogs/2147582967/images/35ceaf4-8c-80bf-7317-42daed4682d7_how-to-make-herbal-tea-blends-damiana-10-710x473.webp",
+    "desc": "Aromatic tea blend from garden herbs."
+  },
+  {
+    "id": 13,
+    "name": "Apple Vinegar",
+    "price": 25.99,
+    "image": "https://www.heart.org/-/media/Images/News/2024/September-2024/0911EIOLIAppleCiderVinegar_SC.jpg?h=600&w=800&sc_lang=en&hash=0F4A89CF709FA29F7DCA406BB8706C9A",
+    "desc": "Fermented apple cider vinegar."
+  },
+  {
+    "id": 14,
+    "name": "Strawberry Jam",
+    "price": 27.99,
+    "image": "https://www.mckenziesfoods.com.au/wp-content/uploads/2015/01/Strawberry-Jam.png",
+    "desc": "Homemade jam with natural strawberries."
+  },
+  {
+    "id": 15,
+    "name": "Organic Apples (1 kg)",
+    "price": 31.99,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTp2vlBu1xQzkv6FepqqaUJrSODAj-r_64KA&s",
+    "desc": "Crisp and juicy organic apples."
+  },
+  {
+    "id": 16,
+    "name": "Natural Yogurt (1 kg)",
+    "price": 18.99,
+    "image": "https://vimafoods.com/wp-content/uploads/2024/09/yogur_natural_2.webp",
+    "desc": "Creamy yogurt made from farm milk."
+  },
+  {
+    "id": 17,
+    "name": "Walnuts (500g)",
+    "price": 45.99,
+    "image": "https://images.contentstack.io/v3/assets/bltcedd8dbd5891265b/blt08d9771ceb573d4a/6665ec3c742174b1d424d119/4461341-Walnut-hero2.jpg?q=70&width=3840&auto=webp",
+    "desc": "Freshly cracked local walnuts."
+  },
+  {
+    "id": 18,
+    "name": "Raw Honey",
+    "price": 49.99,
+    "image": "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "desc": "Unprocessed, natural honey from local hives."
+  },
+  {
+    "id": 19,
+    "name": "Pumpkin Seeds",
+    "price": 19.99,
+    "image": "https://southerneats.b-cdn.net/wp-content/uploads/2021/09/roasted-pumpkin-seeds-scaled.jpg",
+    "desc": "Crunchy and healthy pumpkin seeds."
+  },
+  {
+    "id": 20,
+    "name": "Dried Apricots",
+    "price": 37.99,
+    "image": "https://asofood.com/storage/2020/05/dried-apricot-1.jpg",
+    "desc": "Naturally sun-dried apricots with no sugar added."
+  }
+]
